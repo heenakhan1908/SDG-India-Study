@@ -1,0 +1,129 @@
+
+.row { width: 100%;}
+.logo-img > img {
+  width: 250px;
+  margin-left: 80px;
+}
+
+.navbar-default { background-color: #ffffff; }
+.navbar > div > ul {  position: absolute;left: 50%; transform: translate(-50%);}
+.nav.navbar-nav  > li > a { color: #3a3d42; font-size: 22px; text-align: center; padding-bottom: 20px; padding-right: 55px; padding-top: 50px; }
+.nav.navbar-nav  > li > a:hover {color: #f05330; padding-bottom: 13px; font-weight: bold;}
+.nav.navbar-nav.active {color: #f05330; padding-bottom: 13px; font-weight: bold;}
+
+.list-group-item.active { background-color: blue; color: #fff;}
+.list-group > a:hover { background-color: #99bbff; }
+
+.top-sec { padding: 10px 0 10px 20px; background-image: linear-gradient(to left, rgba(255,0,0,0), #808080 180%); font-size: 18px; }
+.dev-txt { color: #fff; margin-left: 20px; position: absolute; margin-top: 7px; font-weight: bold; font-family: arial;}
+
+.main-sec { padding-bottom: 40px;}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+.footer-container { width: 95%; margin: auto; color: #fff; font-style: oblique;}
+.footer-column > h5 { font-weight: 600; font-size: 22px; font-family: calibri; color: #dbd9d9; margin-left: 40px;}
+.footer-column > ul > a {
+  color: #dbd9d9;
+ }
+.footer-column > ul > a:hover { border-bottom: 0px; }
+.footer-column > ul > a > li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+
+.social-media {
+  text-align: center;
+  color: #dbd9d9;
+}
+.social-media > h3 {
+  font-weight: 600;
+  font-family: calibri;
+  margin-top: 0px;
+}
+
+.social-media > span > ul > a > li > i {
+  margin-left: 13px;
+  margin-top: 5px;
+  line-height: 1.5;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+
+}
+.social-media > span > a> i:hover {
+  background-color: rgba(220,90,50,0.94);
+  color: #fff;
+}
+
+ address {
+     color: rgba(220,90,50,0.94);
+ }
+
+ .news-subscribe {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background-color: rgba(50,120,50,0.9);
+  color: #000000;
+}
+.news-subscribe-head > h2 { font-weight: bold;}
+.news-subscribe-head > span > i { color: #fff;}
+.news-input {
+  padding: 7px 0 7px 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+.news-subscribe-body {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+
+.news-subscribe{
+  background-image: url(../img/donate.jpg);
+  max-width: 100%; 
+  background-repeat: no-repeat;
+ background-size: 100% 310px;
+   position: relative;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    border: 10px double;
+
+
+}
+
+
+.news-btn {
+  float: left;
+  background-color: rgba(250,90,50,0.9);
+  color: #3a3d42;
+  width: 95%;
+  border:none;
+  padding: 7px 0 7px 0;
+  font-weight: bold;
+  font-family: calibri;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.list-group { margin-left: 20px;}
+.input-group-addon {  background-color: #14b326; color: #fff;}
+.input-group:hover {color: #808080;  }
+
+@media screen and (max-width: 768px) {
+  .dev-txt { position: relative;}
+  .navbar > div > ul { position: relative; text-align: center;}
+  .contact-xs { margin-left: 40px;}
+}
+
+.subheads { background-color: #ffffff; color: #fff; padding-right: 30px; padding-top: 20px; padding-bottom: 20px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), #808080 180%);
+  }
